@@ -1,0 +1,203 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2299.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="it"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1">&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1">&lt;title&gt;Xenova Evolution Fitness Lab&lt;/title&gt;</p>
+<p class="p1">&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>body{background:#f5f5f5;color:#333;line-height:1.6;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>a{text-decoration:none;color:inherit;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>button{cursor:pointer;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.container{width:90%;max-width:1200px;margin:0 auto;}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>/* Animazioni */</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.fade-in{opacity:0;transform:translateY(20px);transition:all 0.8s ease;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.fade-in.visible{opacity:1;transform:translateY(0);}</p>
+<p class="p2"><span class="Apple-converted-space">  </span></p>
+<p class="p1"><span class="Apple-converted-space">  </span>/* Hero */</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.hero{background:linear-gradient(135deg,#1d1d1d,#2c2c2c);color:#fff;padding:80px 0;text-align:center;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.hero h1{font-size:2.8rem;margin-bottom:20px;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.hero p{font-size:1.2rem;margin-bottom:20px;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.hero .countdown{font-size:1.2rem;margin-bottom:30px;color:#ff4b2b;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.hero form{display:flex;flex-direction:column;align-items:center;gap:15px;max-width:400px;margin:0 auto;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.hero input{padding:12px;width:100%;border:none;border-radius:5px;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.hero button{padding:12px 25px;background-color:#ff4b2b;border:none;border-radius:5px;color:#fff;font-size:1rem;transition:0.3s;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.hero button:hover{background-color:#ff3a1b;}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>/* Benefits */</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.benefits{padding:60px 0;background-color:#fff;text-align:center;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.benefits h2{font-size:2rem;margin-bottom:40px;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.benefit-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:30px;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.benefit-item{background:#f9f9f9;padding:20px;border-radius:10px;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.benefit-item h3{margin-bottom:15px;color:#ff4b2b;}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>/* Testimonials */</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.testimonials{padding:60px 0;background:#e0e0e0;text-align:center;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.testimonials h2{font-size:2rem;margin-bottom:40px;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.testimonial{margin-bottom:20px;font-style:italic;}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>/* Offer */</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.offer{padding:60px 0;background-color:#fff;text-align:center;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.offer h2{font-size:2rem;margin-bottom:20px;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.offer p{margin-bottom:30px;font-size:1.2rem;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.offer form{display:flex;flex-direction:column;align-items:center;gap:15px;max-width:400px;margin:0 auto;}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>/* Footer */</p>
+<p class="p1"><span class="Apple-converted-space">  </span>footer{padding:30px 0;background:#1d1d1d;color:#fff;text-align:center;font-size:0.9rem;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>footer a{color:#ff4b2b;}</p>
+<p class="p1">&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;!-- Hero Section --&gt;</p>
+<p class="p1">&lt;section class="hero fade-in"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;Trasforma il tuo corpo. Evolvi la tua performance.&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;Allenamenti personalizzati, corsi innovativi e risultati concreti in un’unica esperienza fitness.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="countdown" id="countdown"&gt;Offerta valida per: 3 giorni 00:00:00&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;form id="heroForm"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;input type="text" name="name" placeholder="Nome" required&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;input type="email" name="email" placeholder="Email" required&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;input type="tel" name="phone" placeholder="Telefono" required&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;button type="submit"&gt;Prenota la tua prova gratuita&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/form&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;!-- Benefits Section --&gt;</p>
+<p class="p1">&lt;section class="benefits fade-in"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Perché scegliere Xenova?&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="benefit-grid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="benefit-item fade-in"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h3&gt;Personal Training su misura&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Programmi creati per le tue esigenze e obiettivi.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="benefit-item fade-in"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h3&gt;Corsi di gruppo dinamici&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Allenati con energia e divertimento in ogni lezione.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="benefit-item fade-in"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h3&gt;Tecnologia all’avanguardia&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Monitora i tuoi progressi e ottimizza i risultati.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="benefit-item fade-in"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h3&gt;Community motivante&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Un ambiente positivo che ti spinge a migliorare ogni giorno.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;!-- Testimonials Section --&gt;</p>
+<p class="p1">&lt;section class="testimonials fade-in"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Cosa dicono i nostri clienti&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="testimonial"&gt;“Grazie a Xenova ho finalmente raggiunto i miei obiettivi!” – Giulia, 28 anni&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="testimonial"&gt;“Ambiente motivante e allenamenti che funzionano davvero!” – Marco, 35 anni&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;!-- Offer Section --&gt;</p>
+<p class="p1">&lt;section class="offer fade-in"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Offerta esclusiva&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;Prenota ora la tua prova gratuita di 7 giorni e scopri il metodo Xenova!&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;form id="offerForm"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;input type="text" name="name" placeholder="Nome" required&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;input type="email" name="email" placeholder="Email" required&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;input type="tel" name="phone" placeholder="Telefono" required&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;button type="submit"&gt;Prenota la prova gratuita&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/form&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;!-- Footer --&gt;</p>
+<p class="p1">&lt;footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&amp;copy; 2025 Xenova Evolution Fitness Lab | &lt;a href="#"&gt;Privacy Policy&lt;/a&gt;</p>
+<p class="p1">&lt;/footer&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>// Animazioni al scroll</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const faders = document.querySelectorAll('.fade-in');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const appearOptions = { threshold: 0.3, rootMargin: "0px 0px -50px 0px" };</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const appearOnScroll = new IntersectionObserver(function(entries, observer){</p>
+<p class="p1"><span class="Apple-converted-space">    </span>entries.forEach(entry =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>if(entry.isIntersecting){</p>
+<p class="p1"><span class="Apple-converted-space">        </span>entry.target.classList.add('visible');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>observer.unobserve(entry.target);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>});</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}, appearOptions);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>faders.forEach(fader =&gt; appearOnScroll.observe(fader));</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>// Countdown</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const countdownElement = document.getElementById('countdown');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>let countdownTime = new Date();</p>
+<p class="p1"><span class="Apple-converted-space">  </span>countdownTime.setDate(countdownTime.getDate() + 3);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>function updateCountdown(){</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const now = new Date().getTime();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const distance = countdownTime - now;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const days = Math.floor(distance / (1000*60*60*24));</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const hours = Math.floor((distance%(1000*60*60*24))/(1000*60*60));</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const minutes = Math.floor((distance%(1000*60*60))/(1000*60));</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const seconds = Math.floor((distance%(1000*60))/1000);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>countdownElement.innerHTML = `Offerta valida per: ${days} giorni ${hours}:${minutes}:${seconds}`;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>if(distance&lt;0){countdownElement.innerHTML="Offerta scaduta";}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>setInterval(updateCountdown,1000);</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>// Funzione per invio dati al Web App</p>
+<p class="p1"><span class="Apple-converted-space">  </span>async function sendFormData(form){</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const url = "INSERISCI_IL_TUO_WEB_APP_URL"; // &lt;-- https://script.google.com/macros/s/AKfycbwu-eX4vLHXZKYJqb-jpcLgMSgZZfzhtTfTjiyIe5A5/dev</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const data = {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>name: form.name.value,</p>
+<p class="p1"><span class="Apple-converted-space">      </span>email: form.email.value,</p>
+<p class="p1"><span class="Apple-converted-space">      </span>phone: form.phone.value</p>
+<p class="p1"><span class="Apple-converted-space">    </span>};</p>
+<p class="p1"><span class="Apple-converted-space">    </span>try{</p>
+<p class="p1"><span class="Apple-converted-space">      </span>const response = await fetch(url,{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>method:"POST",</p>
+<p class="p1"><span class="Apple-converted-space">        </span>body:JSON.stringify(data)</p>
+<p class="p1"><span class="Apple-converted-space">      </span>});</p>
+<p class="p1"><span class="Apple-converted-space">      </span>const result = await response.json();</p>
+<p class="p1"><span class="Apple-converted-space">      </span>if(result.result==="success"){</p>
+<p class="p1"><span class="Apple-converted-space">        </span>alert("Grazie! Ti contatteremo a breve.");</p>
+<p class="p1"><span class="Apple-converted-space">        </span>form.reset();</p>
+<p class="p1"><span class="Apple-converted-space">      </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>alert("Errore nell'invio, riprova.");</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>} catch(err){</p>
+<p class="p1"><span class="Apple-converted-space">      </span>alert("Errore di connessione, riprova.");</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>// Event listener per i form</p>
+<p class="p1"><span class="Apple-converted-space">  </span>document.getElementById('heroForm').addEventListener('submit', function(e){</p>
+<p class="p1"><span class="Apple-converted-space">    </span>e.preventDefault();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>sendFormData(this);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>});</p>
+<p class="p1"><span class="Apple-converted-space">  </span>document.getElementById('offerForm').addEventListener('submit', function(e){</p>
+<p class="p1"><span class="Apple-converted-space">    </span>e.preventDefault();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>sendFormData(this);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>});</p>
+<p class="p1">&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
